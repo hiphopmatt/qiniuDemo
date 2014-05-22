@@ -1,0 +1,9 @@
+---- execute Matches (8 in 2 files) ----
+Client.java (src\com\qiniu\auth):		return execute(client, httppost, ret);
+Client.java (src\com\qiniu\auth):		return execute(client, new HttpGet(url), ret);
+Client.java (src\com\qiniu\auth):	protected ClientExecutor execute(ClientExecutor client, HttpRequestBase httpRequest, final CallRet ret) {
+Client.java (src\com\qiniu\auth):		client.execute();
+Client.java (src\com\qiniu\auth):		return mClient.execute(httpRequest);
+Gradlew.bat:if "x%~1" == "x" goto execute
+Gradlew.bat:goto execute
+Gradlew.bat::execute
